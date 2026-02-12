@@ -1,5 +1,5 @@
 # 🚀 Manus Super Agent  
-**OpenManus-like Super AI Agent built with Spring AI**
+**OpenManus like Super AI Agent built with Spring AI**
 
 An OpenManus-inspired autonomous AI agent system that supports **tool calling, MCP integration, memory management, and multi-step reasoning**, built with **Spring Boot** and **Spring AI**.
 
