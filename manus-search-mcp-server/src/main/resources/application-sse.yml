@@ -1,0 +1,27 @@
+spring:
+#  ai:
+#    mcp:
+#      server:
+#        name: manus-search-mcp-server
+#        version: 0.0.1
+#        type: SYNC
+#        # sse
+##        stdio: false
+  ai:
+    mcp:
+      server:
+        name: manus-search-mcp-server
+        version: 0.0.1
+        type: SYNC
+        protocol: SSE
+
+        sse-endpoint: /sse
+        sse-message-endpoint: /mcp/message
+
+        capabilities:
+          tool: true
+
+
+logging:
+  level:
+    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping: DEBUG
